@@ -57,7 +57,7 @@ int menu()
         system("pause");
         system("cls");
     cout<<"1.GRAJ"<<endl;
-    cout<<"2.WYJ—IE"<<endl;
+    cout<<"2.WYJâ€”ÂIE"<<endl;
     wyb=getch();
     system("cls");
     switch(wyb)
@@ -300,7 +300,7 @@ HANDLE hOut;
 
     }
     cout<<"TY: "<<punk<<" PRZECIWNIK: "<<punk_kom<<endl;
-    if(punk==5&&punk_kom==20)
+    if(punk==20&&punk_kom==20)
     {
        cout<<"REMIS"<<endl;
     }
